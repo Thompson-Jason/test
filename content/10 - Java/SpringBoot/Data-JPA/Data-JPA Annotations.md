@@ -1,0 +1,5 @@
+[[Data-JPA Entity|@Entity]]
+[[Data-JPA Id | @id]]
+[[Data-JPA GeneratedValue | @GeneratedValue]]
+[[Data-JPA ManyToOne | @ManyToOne]]
+[[Data-JPA JoinColumn | @JoinColumn]]
