@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"00bc35e5a2341a8d","type":"group","x":-20,"y":-235,"width":290,"height":395,"label":"MVP"},
+		{"id":"f7b6c2d6a8ddc09e","type":"group","x":2140,"y":-180,"width":290,"height":288,"label":"Additional Features"},
+		{"id":"5326a79f0128c59f","type":"group","x":1840,"y":280,"width":290,"height":200,"label":"Things to think about"},
+		{"id":"7c9609debae7344a","type":"text","text":"Start","x":-500,"y":-200,"width":250,"height":55,"color":"4"},
+		{"id":"5d951901ee2807e1","type":"text","text":"Dropdown list of different parts of the dog body","x":0,"y":-215,"width":250,"height":86},
+		{"id":"7711eda2e24f8200","type":"text","text":"DB connection that stores aliments ","x":0,"y":-100,"width":250,"height":60},
+		{"id":"d4169a94088033b2","type":"text","text":"Write new aliments","x":0,"y":-20,"width":250,"height":60},
+		{"id":"901ea724f1554bb1","x":331,"y":-760,"width":400,"height":400,"type":"file","file":"01 - Projects/Pet Health Tracker App/Different parts of dog.md"},
+		{"id":"4e09b533dd48710d","type":"text","text":"Authentication","x":0,"y":84,"width":250,"height":60},
+		{"id":"9f5b8d3a4696103b","type":"text","text":"clean up UI","x":580,"y":-70,"width":250,"height":60},
+		{"id":"8bd21cc960908cce","type":"text","text":"social login (login/signup with google/facebook/apple)","x":940,"y":-91,"width":250,"height":103},
+		{"id":"2725b97fc4132216","type":"text","text":"Dog image to select body area of dog to attach the note to (generic dog) (corgi?)","x":1320,"y":-104,"width":250,"height":128},
+		{"id":"c29c582410d92b86","type":"text","text":"DONE","x":1700,"y":-69,"width":250,"height":60,"color":"1"},
+		{"id":"e03f23b438f86793","type":"text","text":"ADs? Payment of some kind?","x":1860,"y":300,"width":250,"height":60},
+		{"id":"b53e12e99fe58cd3","type":"text","text":"Vet Reviews?","x":1860,"y":400,"width":250,"height":60},
+		{"id":"f71efc9481c2abbd","type":"text","text":"Export all data","x":2160,"y":-160,"width":250,"height":60},
+		{"id":"256e1e075067c11c","type":"text","text":"change default dog image to be different dog breeds","x":2160,"y":-80,"width":250,"height":60},
+		{"id":"a57cbb77442094bc","type":"text","text":"Share a pet with a multiple owners","x":2160,"y":0,"width":240,"height":60}
+	],
+	"edges":[
+		{"id":"6e08cb0941a8c961","fromNode":"7c9609debae7344a","fromSide":"right","toNode":"00bc35e5a2341a8d","toSide":"left"},
+		{"id":"51c8f31dadc08700","fromNode":"9f5b8d3a4696103b","fromSide":"right","toNode":"8bd21cc960908cce","toSide":"left"},
+		{"id":"fcd67e479ea1c173","fromNode":"8bd21cc960908cce","fromSide":"right","toNode":"2725b97fc4132216","toSide":"left"},
+		{"id":"ebc1c5b5d7320545","fromNode":"2725b97fc4132216","fromSide":"right","toNode":"c29c582410d92b86","toSide":"left"},
+		{"id":"d467e05caf2cf1e7","fromNode":"c29c582410d92b86","fromSide":"right","toNode":"f7b6c2d6a8ddc09e","toSide":"left"},
+		{"id":"f80662f304853301","fromNode":"c29c582410d92b86","fromSide":"right","toNode":"5326a79f0128c59f","toSide":"top"},
+		{"id":"2efcd0ecfc68f34d","fromNode":"5d951901ee2807e1","fromSide":"right","toNode":"901ea724f1554bb1","toSide":"bottom"},
+		{"id":"9e2919c098927062","fromNode":"00bc35e5a2341a8d","fromSide":"right","toNode":"9f5b8d3a4696103b","toSide":"left"}
+	]
+}

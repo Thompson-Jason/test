@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"bff31d0561ee9ef5","type":"group","x":-1020,"y":-493,"width":320,"height":893,"label":"Injuries"},
+		{"id":"919186b7d162a5bc","type":"group","x":-456,"y":-497,"width":290,"height":397,"label":"Pets"},
+		{"id":"9d4aa277885c1e4d","type":"group","x":183,"y":-497,"width":290,"height":297,"label":"Users"},
+		{"id":"b743184cf54e3ddb","type":"text","text":"InjuryId | Long","x":-1000,"y":-473,"width":250,"height":60,"color":"3"},
+		{"id":"2ad27c2dc7c77887","type":"text","text":"InjuryName | VARCHAR(256)","x":-1000,"y":-276,"width":280,"height":60},
+		{"id":"d1ff60bc8a2b8072","type":"text","text":"InjuryDescription | Text","x":-1000,"y":-176,"width":250,"height":60},
+		{"id":"e5a0aa9d397e7b4d","type":"text","text":"PetID | Integer","x":-1000,"y":-378,"width":250,"height":60},
+		{"id":"b2e4c49d27c51892","type":"text","text":"LocationId | Integer","x":-1000,"y":-80,"width":250,"height":60},
+		{"id":"560c7bc6283ca17a","type":"text","text":"PetID    |  Long","x":-436,"y":-477,"width":250,"height":60,"color":"3"},
+		{"id":"ca1ea60f2c2014db","type":"text","text":"DateAdded | Date","x":-436,"y":-380,"width":250,"height":60},
+		{"id":"87f099c76a8151e6","type":"text","text":"Tables","x":-436,"y":-780,"width":250,"height":60},
+		{"id":"ac040cba07efc681","type":"text","text":"Password | Text","x":203,"y":-280,"width":250,"height":60},
+		{"id":"c9ad935115408ee4","type":"text","text":"UserName | Text","x":203,"y":-378,"width":250,"height":56},
+		{"id":"4a0e726c4bca9e9b","type":"text","text":"OwnerID | Long","x":203,"y":-477,"width":250,"height":60,"color":"3"},
+		{"id":"7156fb1bc8a8e423","type":"text","text":"PetName | VARCHAR(256)","x":-436,"y":-280,"width":250,"height":60},
+		{"id":"8417d913d1cfc716","type":"text","text":"OwnerID | Integer","x":-436,"y":-180,"width":250,"height":60},
+		{"id":"69b7257661e21f4c","type":"text","text":"whenDidItStart | Timestamp","x":-1000,"y":20,"width":284,"height":60},
+		{"id":"251a534f805ece3a","type":"text","text":"whenDidItStop | Timestamp","x":-1000,"y":120,"width":264,"height":60},
+		{"id":"c2cff56020402c3f","type":"text","text":"doesTheVetKnow | Boolean","x":-1000,"y":220,"width":260,"height":60},
+		{"id":"eca314fb723fe135","type":"text","text":"Comments | Text","x":-1000,"y":320,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"7eb9c540c7e19fad","fromNode":"87f099c76a8151e6","fromSide":"bottom","toNode":"919186b7d162a5bc","toSide":"top","toEnd":"none"},
+		{"id":"0f669818219dfe2f","fromNode":"4a0e726c4bca9e9b","fromSide":"left","toNode":"8417d913d1cfc716","toSide":"right"},
+		{"id":"c800bfbb9616c2cb","fromNode":"87f099c76a8151e6","fromSide":"bottom","toNode":"9d4aa277885c1e4d","toSide":"top","toEnd":"none"},
+		{"id":"bc9dc6dc57acafe1","fromNode":"e5a0aa9d397e7b4d","fromSide":"right","toNode":"560c7bc6283ca17a","toSide":"left"},
+		{"id":"be9271fa2aab180d","fromNode":"bff31d0561ee9ef5","fromSide":"top","toNode":"87f099c76a8151e6","toSide":"bottom","toEnd":"none"}
+	]
+}

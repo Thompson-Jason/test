@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "Jason's Digital Garden",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "blog.jasonthompson.org",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
@@ -38,14 +38,15 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          //This isn't the final theme yet I am still making tweaks
+          light: "#24273a", //Background
+          lightgray: "#c6a0f6", //Accent Colors
+          gray: "#ed8796", //Subtext?
+          darkgray: "#cad3f5", //Text
+          dark: "#8bd5ca", //Titles and Sidebar titles
+          secondary: "#8aadf4", //Folder names and breadcrumbs
+          tertiary: "#7dc4e4", //Node colors in graph
+          highlight: "rgba(238, 212, 159, 0.2)"
         },
       },
     },

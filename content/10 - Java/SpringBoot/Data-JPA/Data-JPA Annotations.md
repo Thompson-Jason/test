@@ -1,5 +1,9 @@
-[[Data-JPA Entity|@Entity]]
-[[Data-JPA Id | @id]]
-[[Data-JPA GeneratedValue | @GeneratedValue]]
-[[Data-JPA ManyToOne | @ManyToOne]]
-[[Data-JPA JoinColumn | @JoinColumn]]
+---
+title: Data-JPA Annotations
+---
+
+[@Entity](Data-JPA%20Entity.md)  
+* @id*  
+* @GeneratedValue*  
+* @ManyToOne*  
+* @JoinColumn*

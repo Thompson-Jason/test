@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"2c1efbf2fa00e5dd","type":"text","text":"MongoDB","x":1143,"y":-425,"width":250,"height":60},
+		{"id":"937bcc84648e0a83","type":"text","text":"PostgreSQL","x":1143,"y":-293,"width":250,"height":60},
+		{"id":"40b6b085fed15668","type":"text","text":"Back End","x":120,"y":-440,"width":250,"height":60},
+		{"id":"471df6dad23c839e","type":"text","text":"Database","x":680,"y":-293,"width":250,"height":60},
+		{"id":"e4d4a8dfc1a5ea2a","type":"text","text":"[[Pet Health Tracker Database Schema.canvas|Schema]]\n","x":805,"y":-140,"width":250,"height":60},
+		{"id":"c70dc7cc22c9ce90","type":"text","text":"Front End","x":-1100,"y":-455,"width":250,"height":60},
+		{"id":"d8ba6b147a96b883","type":"text","text":"ReactJS","x":-1100,"y":-328,"width":250,"height":60},
+		{"id":"0502dd58239d2533","type":"text","text":"[[Stripe]]","x":-380,"y":-263,"width":250,"height":60},
+		{"id":"17bc93c4588e9c1f","type":"text","text":"NextJS","x":120,"y":-200,"width":250,"height":60},
+		{"id":"8933e2d88681c203","type":"file","file":"01 - Projects/Pet Health Tracker App/Pet Health Tracker Database Schema.canvas","x":805,"y":60,"width":400,"height":400},
+		{"id":"ba4717cfba31ae43","x":-1400,"y":-328,"width":250,"height":60,"type":"text","text":"daisyUI"}
+	],
+	"edges":[
+		{"id":"a9574f6c653cc042","fromNode":"40b6b085fed15668","fromSide":"bottom","toNode":"471df6dad23c839e","toSide":"top","toEnd":"none","color":"4"},
+		{"id":"a367adece3f076d0","fromNode":"471df6dad23c839e","fromSide":"right","toNode":"2c1efbf2fa00e5dd","toSide":"left","toEnd":"none"},
+		{"id":"26c4e85c7389d354","fromNode":"471df6dad23c839e","fromSide":"right","toNode":"937bcc84648e0a83","toSide":"left","toEnd":"none","color":"1"},
+		{"id":"e9eb760cebb3cdd3","fromNode":"c70dc7cc22c9ce90","fromSide":"bottom","toNode":"d8ba6b147a96b883","toSide":"top","toEnd":"none"},
+		{"id":"84e0a7471ad148e6","fromNode":"0502dd58239d2533","fromSide":"top","toNode":"40b6b085fed15668","toSide":"bottom","toEnd":"none"},
+		{"id":"db3da739c57f7d96","fromNode":"471df6dad23c839e","fromSide":"bottom","toNode":"e4d4a8dfc1a5ea2a","toSide":"top","toEnd":"none"},
+		{"id":"5ab43cd498adafe1","fromNode":"40b6b085fed15668","fromSide":"bottom","toNode":"17bc93c4588e9c1f","toSide":"top","toEnd":"none"},
+		{"id":"61b832a3d29bdb90","fromNode":"e4d4a8dfc1a5ea2a","fromSide":"bottom","toNode":"8933e2d88681c203","toSide":"top","toEnd":"none"},
+		{"id":"2ee19ef4595f3689","fromNode":"ba4717cfba31ae43","fromSide":"top","toNode":"c70dc7cc22c9ce90","toSide":"bottom","toEnd":"none"}
+	]
+}
