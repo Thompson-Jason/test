@@ -39,21 +39,13 @@ const config: QuartzConfig = {
         },
         darkMode: {
           //This isn't the final theme yet I am still making tweaks
-          // light: "#24273a", //Background
-          // lightgray: "#c6a0f6", //Accent Colors
-          // gray: "#ed8796", //Subtext?
-          // darkgray: "#cad3f5", //Text
-          // dark: "#8bd5ca", //Titles and Sidebar titles
-          // secondary: "#8aadf4", //Folder names and breadcrumbs
-          // tertiary: "#7dc4e4", //Node colors in graph
-          // highlight: "rgba(238, 212, 159, 0.2)"
-          light: "#000", //Background
-          lightgray: "#000", //Accent Colors
-          gray: "#000", //Subtext?
-          darkgray: "#00", //Text
-          dark: "#000", //Titles and Sidebar titles
-          secondary: "#000", //Folder names and breadcrumbs
-          tertiary: "#000", //Node colors in graph
+          light: "#24273a", //Background
+          lightgray: "#c6a0f6", //Accent Colors
+          gray: "#ed8796", //Subtext?
+          darkgray: "#cad3f5", //Text
+          dark: "#8bd5ca", //Titles and Sidebar titles
+          secondary: "#8aadf4", //Folder names and breadcrumbs
+          tertiary: "#7dc4e4", //Node colors in graph
           highlight: "rgba(238, 212, 159, 0.2)"
         },
       },
